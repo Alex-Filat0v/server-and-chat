@@ -5,7 +5,7 @@ from threading import Thread
 import sys
 from PyQt5 import QtWidgets
 from assets.start_page import Ui_MainWindow
-from assets.Login import Ui_LoginWindow
+from assets.login import Ui_LoginWindow
 from assets.registration import Ui_RegistWindow
 from assets.main_window import Ui_GlobalMainWindow
 from assets.settings import Ui_settingsWindow
