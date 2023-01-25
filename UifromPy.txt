@@ -1,0 +1,1 @@
+D:\Python\Scripts\pyuic5.exe -x D:\Pipee\Pipee.ui -o D:\Pipee\Pipee.py
