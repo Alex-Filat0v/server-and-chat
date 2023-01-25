@@ -4,16 +4,16 @@ from signal import signal, SIGINT
 from threading import Thread
 import sys
 from PyQt5 import QtWidgets
-from StartPage import Ui_MainWindow
-from Login import Ui_LoginWindow
-from registration import Ui_RegistWindow
-from MainWindow import Ui_GlobalMainWindow
-from settings import Ui_settingsWindow
-from change_name import Ui_NameWindow
-from change_password import Ui_PassWindow
-from id import Ui_pidWindow
-from friend import Ui_FriendsWindow
-from online import Ui_onlineWindow
+from assets.start_page import Ui_MainWindow
+from assets.Login import Ui_LoginWindow
+from assets.registration import Ui_RegistWindow
+from assets.main_window import Ui_GlobalMainWindow
+from assets.settings import Ui_settingsWindow
+from assets.change_name import Ui_NameWindow
+from assets.change_password import Ui_PassWindow
+from assets.id import Ui_pidWindow
+from assets.friend import Ui_FriendsWindow
+from assets.online import Ui_onlineWindow
 from functools import partial
 
 
